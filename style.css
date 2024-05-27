@@ -1,15 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cor_font_padrão: #ffffff;
+    --cor_font_secundaria: #c0c0c0;
+    --cor_padrao_ancora: #167BF7;
+    --style_font: "Inter", sans-serif;
+}
+
+
+body {
+    background-color: #00030C;
+    font-family: var(--style_font);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--cor_font_padrão);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .section_1 {
+    background-image: url(Assets/Background.png);
+    background-repeat:no-repeat;
+    background-size: contain;
 }
 .titulo_section_1 {
+    font-size: 1.75em;
+    font-weight: 700;
+    text-align: center;
+
 }
 .ancora_1_section_1 {
+    border-radius: 0.5em;
+    background-color: var(--cor_padrao_ancora);
+    display: block;
+    padding: 1em;
+    text-align: center;
+    color: var(--cor_font_padrão);
+    text-decoration: none;
 }
 .ancora_2_section_1 {
+    border-radius: 0.5em;
+    border: 1px solid var(--cor_font_padrão);
+    background-color: transparent;
+    display: block;
+    padding: 1em;
+    text-align: center;
+    color: var(--cor_font_padrão);
+    text-decoration: none;
 }
 .obs_section_1 {
+    font-size: 0.75em;
+    text-align: center;
+    color: var(--cor_font_secundaria);
+    
 }
-.imagem_fundo_section_1 {
-}
+
 .section_comum {
 }
 .imagem_comum {
