@@ -120,7 +120,6 @@ body {
     align-items: center;
     text-align: center;
     padding-top: 2.5em;
-    /* padding-bottom: 12em; */
 }
 
 .dispositovos_section_4 {
@@ -150,10 +149,6 @@ body {
     gap: 1em;
 }
 
-
-.ancora_footer {
-    
-}
 .conteudo_footer{
     font-size: 0.87em;
     color: var(--cor_font_secundaria);
