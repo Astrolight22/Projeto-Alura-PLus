@@ -45,6 +45,7 @@ body {
     font-size: 1.75em;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 1.37em;
 }
 .ancora_1_section_1 {
     border-radius: 0.5em;
@@ -54,6 +55,7 @@ body {
     text-align: center;
     color: var(--cor_font_padrão);
     text-decoration: none;
+    margin-top: 3.37em;
 }
 .ancora_2_section_1 {
     border-radius: 0.5em;
@@ -64,29 +66,95 @@ body {
     text-align: center;
     color: var(--cor_font_padrão);
     text-decoration: none;
+    margin-top: 1em;
 }
 .obs_section_1 {
     font-size: 0.75em;
     text-align: center;
     color: var(--cor_font_secundaria);
-    
+    margin-top: 0.62em;
 }
 
 .section_comum {
+    margin-left: 7.5em;
+    margin-right: 7.5em;
+    align-items: center;
 }
 .imagem_comum {
+    width: 80%;
+    padding: 1.5em;
+    text-align: center;
 }
 .titulo_comum {
+    font-size: 3em;
+    font-weight: 700;
 }
 .conteudo_comum {
+    font-size: 1em;
+    color: var(--cor_font_secundaria);
+    opacity: 0.8;
 }
 .ancora_3_section_3 {
+    border-radius: 0.5em;
+    background-color: var(--cor_padrao_ancora);
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+    color: var(--cor_font_padrão);
+    text-decoration: none;
+    margin-top: 1em;
+    width: fit-content;
 }
 .section_4 {
+    margin-left: 7.5em;
+    margin-right: 7.5em;
+    display: inline;
+    align-items: center;
+    text-align: center;
+
 }
-.subtitulo_footer {
+
+.main_section_4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-top: 2.5em;
+    /* padding-bottom: 12em; */
 }
+
+.dispositovos_section_4 {
+    width: 75%;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo_footer {
+    padding-top: 9em;
+    padding-bottom: 2.6em;
+
+}
+
+.ancora_footer_grupo{
+    display: flex;
+    padding-bottom: 2.5em;
+    font-size: 1em;
+    gap: 1em;
+}
+
+
 .ancora_footer {
+    
 }
-.conteudo_footer {
+.conteudo_footer{
+    font-size: 0.87em;
+    color: var(--cor_font_secundaria);
 }
