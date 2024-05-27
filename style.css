@@ -32,12 +32,19 @@ body {
     background-image: url(Assets/Background.png);
     background-repeat:no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
+
+.div_section_1 {
+    margin-left: 5.75em;
+    margin-right: 7.28em;
+}
+
 .titulo_section_1 {
     font-size: 1.75em;
     font-weight: 700;
     text-align: center;
-
 }
 .ancora_1_section_1 {
     border-radius: 0.5em;
